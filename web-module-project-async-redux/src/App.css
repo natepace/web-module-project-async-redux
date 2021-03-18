@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+  
 }
-
+*{
+ background-color: #282c34; 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +38,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.characterList{
+  display:flex;
+  flex-direction: column;
+  width: 50%;
+  
+}
+.characterbox{
+  border:2px solid white;
 }
